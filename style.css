@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+header{
+  
+}
+#logo {
+  height: 68px;
+  width: 268px;
+  cursor: pointer;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  top: 0%;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+.drop-menu {
+    position: relative;
+  display: none;
+  color: #747474;
+  cursor: pointer;
+}
+.menu-item {
+    text-decoration: none solid rgb(116,116,116);
+  margin-right: 20px;
+  font-family: "Roboto", Arial, sans-serif;
+
+  font-size: 15px;
+
+  font-weight: 400;
+
+  line-height: 30px;
+  color: #747474;
+  text-align: left;
+  /* color: rgb(0, 179, 155) */
+}
+.dp:hover .drop-menu {
+    background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style: none;
+  height: 220px;
+  width: 220px;
+  box-shadow: 0px 5px 10px 0px rgb(211, 207, 201);
+  position: absolute;
+  margin-left: -100px;
+  padding: 20px  ;
+  z-index:10000;
+}
+.menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+/**/
+.drop-menu-item:hover {
+ 
+     background-color:#f6f8f8 ;
+    color: rgb(0, 179, 155);
+    
+
+}
+#img2{
+    height:39px ;
+    width: px;
+    position: absolute;
+    margin-left:50% ;
+    
+}
+#title-s1{
+    margin-top: 70px;
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 34px ;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    line-height: 44.2px;
+    text-align: center;
+    color: #00b39b;
+    margin-left: 14.1%;
+    }
+.ps1{
+text-align: left;
+    font-family:"Roboto" ;
+    font-size: 16px;
+    line-height: 28px;
+    color: #747474;
+    
+}
+#section-1{
+    z-index: 0;
+    
+    width: 1015px;
+    position: absolute;
+    margin-top: 6.1%;  
+    margin-left: 14%; 
+  
+}
+#p1{
+
+    position: absolute;
+    width: 470px;
+    margin-top: 180px;
+    margin-left: 2%;
+}
+#p2{
+    position: absolute;
+    width: 480px;
+    margin-top: 180px;
+    margin-left: 52%;
+}
+
+
+#section-2{
+    
+    position: absolute;
+    display: flex;
+    margin-top: 30%;
+    margin-left: 15%;
+    justify-content: space-between;
+
+}
+#box1{
+    display: flex;
+    
+    flex-direction: column;
+    background-color: #00b39b;
+    border-radius: 10px;
+    /*#00b39b; on hover*/
+    width: 250px;
+    height: 325px;
+    padding: 32px 32px 0 32px;
+    justify-content: space-between;
+  
+}
+#box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4183da;
+    border-radius: 10px;
+    /*#5190E2*/
+    width: 250px;
+    height: 325px;
+    margin-left: 20px;
+    padding: 32px 32px 0 32px;
+    transition: 1s;
+   
+
+    
+}
+#box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #242e38;
+    border-radius: 10px;
+    /*#323D49;*/
+    width: 250px;
+    height: 325px;
+    margin-left: 20px;
+    padding: 32px 32px 0 32px;
+
+    
+}
+
+.p-boxes{
+    font-family: "work Sans";
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    line-height: 28.8px;
+    height: 86.4px;
+    width: 247.625px;
+    color: white;
+}
+
+
+#user-icon{
+    color: white;
+    font-size: 25px;
+
+}
+#doc-icon{
+    color: white;
+    font-size: 25px;
+    
+
+}
+#hospital-icon{
+    color: white;
+    font-size: 25px;
+
+}
+.title-boxes{
+font-family: "work Sans";
+font-size: 26px;
+letter-spacing: -0.3px;
+line-height: 33.8px;
+color: white;
+}
+#box3:hover {
+ background-color: #323D49;
+
+
+}
+#box2:hover {
+   
+    z-index: 1000;
+    background-color: #5190E2;
+  transform: scale(1.2);
+   }
+#box1:hover {
+    background-color:  #00b39bd0;
+   }
+
+   #select-domain1{
+       background-color: #00b39b ;
+       border: none;
+       margin-bottom: 40px;
+       font-family: "Roboto";
+       font-size: 19.2px;
+       line-height: 24.96px;
+       white-space: pre;
+       cursor: pointer;
+       color: white;
+       text-decoration: underline;
+       width:160px ;
+
+   }
+   #select-domain2{
+    background-color:#4183da ;
+    border: none;
+    margin-bottom: 40px;
+    font-family: "Roboto";
+    font-size: 19.2px;
+    line-height: 24.96px;
+    white-space: pre;
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+    width:160px ;
+
+}
+#select-domain3-1{
+    background-color:#242e38 ;
+    border: none;
+    margin-bottom: 3px;
+    font-family: "Roboto";
+    font-size: 19.2px;
+    line-height: 24.96px;
+    white-space: pre;
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+    width:160px ;
+
+}
+#select-domain3-2{
+    background-color:#242e38 ;
+    border: none;
+    margin-bottom: 40px;
+    font-family: "Roboto";
+    font-size: 19.2px;
+    line-height: 24.96px;
+    white-space: pre;
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+    
+
+}
+#box1:hover  #select-domain1{
+    background-color:  #00b39bd0;
+
+   }
+   #box2:hover  #select-domain2{
+    background-color:  #5190E2;
+
+   }
+   
+   #box3:hover  #select-domain3-1{
+    background-color:  #323D49;
+
+   }
+   #box3:hover  #select-domain3-2{
+    background-color:  #323D49;
+
+   }
+
+   /* section 3*/
+   .flower-logo{
+    width: 20px;
+   filter:  invert(48%) sepia(9%) saturate(32%) hue-rotate(324deg) brightness(89%) contrast(84%);
+   }
+   .imgF{
+    filter: invert(73%) sepia(12%) saturate(0%) hue-rotate(161deg) brightness(92%) contrast(92%);
+   }
+  #paragraf{
+      font-family: "Roboto", Arial, sans-serif;
+      font-size: 25px;
+      line-height: 35px;
+      position: relative;
+      top: 35px;
+      width: 250px;
+      height: 150px;
+
+  }
+
+#section-3{
+
+    position: absolute;
+    display: flex;
+    width: 75%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 760px;
+    margin-left: 200px;
+}
+#logos-s3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+position: relative;
+top: 20px;
+width: 900px;
+height: 120px;
+  
+
+}
+.logoDiv{
+    
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 130px;
+    height: 30px;
+  
+}
+.logoDiv h3{
+    position: relative;
+    bottom: 15px;
+    padding-left: 5px;
+
+} 
+.logoDiv>h3:hover{
+    filter: invert(59%) sepia(100%) saturate(305%) hue-rotate(122deg) brightness(89%) contrast(90%);
+}
+.logoDiv:hover  .imgF {
+    filter: none;
+}
+.imgF:hover {
+    filter: none;
+}
+
+/*********************************/
+#section-5{
+    background-image: url(https://www.docplanner.com/img/logo.png) ;
+    background-repeat: no-repeat;
+    background-position-y:300px ;
+    background-color:#E1F9F7 ;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top:1000px
+}
+#sec1{
+padding-top: 60px;
+position: relative;
+
+
+}
+#sec1 div{
+    margin: 30px;
+}
+
+#div2{
+padding-top: 10px;
+position: relative;
+}
+#div2 div{
+    margin: 30px;
+}
+#section-7{
+display: flex;
+flex-wrap: wrap;
+position: relative;
+top: 1000px;
+width: 75%;
+padding: 10px;
+left: 15%;
+
+}
+.cartes{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    margin: 10px;
+ 
+}
+.cartes button{
+    position: relative;
+    width: 130px;
+    height: 90px;
+    left: 150px;
+    bottom:40px ;
+    color:white ;
+    background-color: #1662C6;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+
+}
+.cartes:hover {
+    box-shadow: 0px 5px 10px 0px rgb(211, 207, 201);
+}
+#section-8{
+    position: relative;
+    top: 1000px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    left: 35%;
+}
+#section-8 button{
+    color:white ;
+    background-color: #1662C6;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+footer{
+    position: relative;
+    top: 20px;
+}
+.p1-1{
+    width: 80%;
+    text-align: center;
+    margin-left:10%;
+    font-size: smaller;
+    color: #ABABAB;
+    
+}
+a{
+    text-decoration: none;
+    color: #1662C6;
+
+}
+a:hover{
+text-decoration:underline ;
+}
+main{
+    margin-right: 0%;
+    width: 100%;
+    position: relative;
+    height: 3150px;
+    box-shadow: 0 4px 2px -2px rgb(211, 207, 201);;
+ 
+
+}
+
+   
+   
+
